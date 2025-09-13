@@ -3,7 +3,7 @@
 <br>
 
 ## Deskripsi Proyek
-Proyek ini merupakan **proyek data cleaning dan Exploratory Data Analysis/EDA** dari dataset PHK global [World Layoffs](https://www.kaggle.com/datasets/previnpillay/world-layoffs-2020-2023) tahun 2020-2023 menggunakan SQL. Tujuan utamanya adalah untuk membersihkan data, mengidentifikasi trend, dan menemukan insights penting terkait PHK yang terjadi di berbagai perusahaan, industri, dan negara di seluruh dunia. Seluruh proses, mulai dari pembersihan data hingga analisis, dilakukan hanya menggunakan SQL. 
+Proyek ini merupakan proyek **Data Cleaning dan Exploratory Data Analysis/EDA** dari dataset PHK global [World Layoffs](https://www.kaggle.com/datasets/previnpillay/world-layoffs-2020-2023) tahun 2020-2023 menggunakan SQL. Tujuan utamanya adalah untuk membersihkan data, mengidentifikasi trend, dan menemukan insights penting terkait PHK yang terjadi di berbagai perusahaan, industri, dan negara di seluruh dunia. Seluruh proses, mulai dari pembersihan data hingga analisis, dilakukan hanya menggunakan SQL. 
 
 ---
 
