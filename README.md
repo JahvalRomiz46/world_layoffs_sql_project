@@ -8,7 +8,7 @@ Proyek ini merupakan **proyek data cleaning dan Exploratory Data Analysis/EDA** 
 ---
 
 ## Pertanyaan Bisnis & Analisis
-* Bagaimana tren PHK dari tahun ke tahun dan dari bulan ke bulan?
+* Bagaimana trend PHK dari tahun ke tahun dan dari bulan ke bulan?
 * Sektor industri dan negara mana yang paling terdampak oleh PHK?
 * Perusahaan apa saja yang mem-PHK karyawannya dalam jumlah besar?
 * Apakah ada perusahaan yang melakukan PHK terhadap seluruh karyawannya?
@@ -40,14 +40,14 @@ Proyek ini dibagi menjadi dua tahapan:
 ### 2. Exploratory Data Analysis (EDA)
 * Mencari tahu perusahaan mana yang mem-PHK seluruh karyawannya.
 * Mengidentifikasi perusahaan, industri, dan negara dengan jumlah PHK tertinggi.
-* Menganalisis total PHK per tahun dan per bulan untuk melihat tren dari waktu ke waktu.
+* Menganalisis total PHK per tahun dan per bulan untuk melihat trend dari waktu ke waktu.
 * Membuat analisis *rolling total* untuk melihat akumulasi total PHK dari bulan ke bulan.
 * Meranking 5 perusahaan teratas dengan jumlah PHK terbanyak di setiap tahunnya.
 
 ---
 
 ## Key Insights
-* **Tren PHK**: Tren PHK menunjukkan kenaikan signifikan, terutama pada periode awal pandemi dan mencapai puncaknya di tahun 2023.
+* **Trend PHK**: Trend PHK menunjukkan kenaikan signifikan, terutama pada periode awal pandemi dan mencapai puncaknya di tahun 2023.
 * **Industri Paling Terdampak**: Sektor industri **Consumer** dan **Retail** menunjukkan jumlah PHK tertinggi secara keseluruhan.
 * **Negara Paling Terdampak**: **United States** adalah negara dengan jumlah PHK tertinggi yang jauh melampaui negara lain.
 * **Perusahaan Terbesar**: Perusahaan seperti **Amazon**, **Google**, dan **Meta** termasuk dalam 5 perusahaan teratas yang melakukan PHK terbesar di beberapa tahun terakhir dalam rentang tahun data.
@@ -55,6 +55,6 @@ Proyek ini dibagi menjadi dua tahapan:
 ---
 
 ## Kesimpulan
-Proyek ini berhasil melakukan **pembersihan data**  untuk analisis dan **exploratory data analysis** menggunakan SQL. Data yang sudah bersih memungkinkan kita untuk menarik kesimpulan yang akurat tentang tren PHK global dan mengidentifikasi sektor serta perusahaan yang paling terdampak.
+Proyek ini berhasil melakukan **pembersihan data**  untuk analisis dan **exploratory data analysis** menggunakan SQL. Data yang sudah bersih memungkinkan kita untuk menarik kesimpulan yang akurat tentang trend PHK global dan mengidentifikasi sektor serta perusahaan yang paling terdampak.
 
 Proyek ini dapat dikembangkan lebih lanjut dengan menghubungkan hasil analisis ke *tools* visualisasi data seperti **Tableau** atau **Power BI** untuk menyajikan temuan secara lebih interaktif dan menarik.
