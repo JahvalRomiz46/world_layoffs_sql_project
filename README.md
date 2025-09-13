@@ -3,7 +3,7 @@
 <br>
 
 ## Deskripsi Proyek
-Proyek ini merupakan **proyek data cleaning dan Exploratory Data Analysis/EDA** dari dataset PHK global `World Layoffs` tahun 2021-2023 menggunakan SQL. Dataset yang digunakan didapat dari situs kaggle: https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting. Tujuan utamanya adalah untuk membersihkan data, mengidentifikasi trend, dan menemukan insights penting terkait PHK yang terjadi di berbagai perusahaan, industri, dan negara di seluruh dunia. Seluruh proses, mulai dari pembersihan data hingga analisis, dilakukan hanya menggunakan SQL. 
+Proyek ini merupakan **proyek data cleaning dan Exploratory Data Analysis/EDA** dari dataset PHK global `World Layoffs` tahun 2020-2023 menggunakan SQL. Dataset yang digunakan didapat dari situs kaggle: https://www.kaggle.com/datasets/previnpillay/world-layoffs-2020-2023. Tujuan utamanya adalah untuk membersihkan data, mengidentifikasi trend, dan menemukan insights penting terkait PHK yang terjadi di berbagai perusahaan, industri, dan negara di seluruh dunia. Seluruh proses, mulai dari pembersihan data hingga analisis, dilakukan hanya menggunakan SQL. 
 
 ---
 
