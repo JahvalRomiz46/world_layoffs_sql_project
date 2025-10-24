@@ -16,7 +16,7 @@ Proyek ini merupakan proyek analisis data PHK Global dari dataset [World Layoffs
 ## Folders
 * `sql_scripts`: Berisi semua *query* SQL untuk membersihkan & menganalisis dataset.
 * `visualization`: Berisi file Tableau & Gambar dashboard hasil visualisasi insight.
-* `query_table_results` : Berisi file excel hasil output tabel dari query SQL. 
+* `query_table_results` : Berisi file csv hasil output tabel dari query SQL. 
 
 ---
 
