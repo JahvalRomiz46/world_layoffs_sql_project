@@ -1,0 +1,11 @@
+industry,stage,total_companies_failed,total_laid_off,avg_funds_raised
+Food,Seed,4,320,3
+Education,Seed,4,270,2
+Food,"Series A",3,250,12
+Retail,"Series B",3,45,33
+Retail,Seed,3,NULL,16
+Food,"Series B",2,1100,43
+Transportation,Acquired,2,500,18
+Travel,"Series B",2,306,44
+Healthcare,"Series B",2,154,63
+"Real Estate","Series B",2,140,81
