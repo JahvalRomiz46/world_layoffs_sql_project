@@ -1,29 +1,21 @@
-# Analisis Data PHK Global (World Layoffs) dengan SQL 📉
-
+# Analisis Data PHK Global (World Layoffs) 📉
 <br>
 
 ## Deskripsi Proyek
-Proyek ini merupakan proyek **Data Cleaning dan Exploratory Data Analysis/EDA** dari dataset PHK global [World Layoffs](https://www.kaggle.com/datasets/previnpillay/world-layoffs-2020-2023) tahun 2020-2023 menggunakan SQL. Tujuan utamanya adalah untuk membersihkan data, mengidentifikasi trend, dan menemukan insights penting terkait PHK yang terjadi di berbagai perusahaan, industri, dan negara di seluruh dunia. Seluruh proses, mulai dari pembersihan data hingga analisis, dilakukan hanya menggunakan SQL. 
-
----
-
-## Pertanyaan Bisnis & Analisis
-* Bagaimana trend PHK dari tahun ke tahun dan dari bulan ke bulan?
-* Sektor industri dan negara mana yang paling terdampak oleh PHK?
-* Perusahaan apa saja yang mem-PHK karyawannya dalam jumlah besar?
-* Apakah ada perusahaan yang melakukan PHK terhadap seluruh karyawannya?
+Proyek ini merupakan proyek analisis data PHK Global dari dataset [World Layoffs](https://www.kaggle.com/datasets/previnpillay/world-layoffs-2020-2023) tahun 2020-2023. Tujuan utamanya adalah untuk membersihkan data, mengidentifikasi trend, dan menemukan insights penting terkait PHK yang terjadi di berbagai perusahaan, industri, dan negara di seluruh dunia. Seluruh proses, mulai dari pembersihan data hingga analisis, dilakukan menggunakan SQL, dan visualisasi menggunakan Tableau. 
 
 ---
 
 ## Teknologi yang Digunakan
 * **SQL (MySQL)**: Digunakan untuk seluruh proses pembersihan dan analisis data.
 * **MySQL Workbench**: Digunakan sebagai *client* untuk menjalankan *query*.
+* **Tableau**: Digunakan untuk visualisasi hasil query dalam bentuk dashboard.
 
 ---
 
 ## Struktur Repositori
-* `world_layoffs_data_cleaning.sql`: Berisi semua *query* SQL untuk membersihkan dataset.
-* `world_layoffs_eda.sql`: Berisi semua *query* SQL untuk analisis eksplorasi data.
+* `sql_scripts`: Berisi semua *query* SQL untuk membersihkan & menganalisis dataset.
+* `visualization`: Berisi file Tabelau & Gambar dashboard hasil visualisasi insight.
 
 ---
 
@@ -38,23 +30,37 @@ Proyek ini dibagi menjadi dua tahapan:
 * **Penghapusan Baris dan Kolom yang Tidak Relevan**: Menghapus baris yang memiliki nilai null di kedua kolom `total_laid_off` dan `percentage_laid_off` karena tidak memiliki informasi.
 
 ### 2. Exploratory Data Analysis (EDA)
-* Mencari tahu perusahaan mana yang mem-PHK seluruh karyawannya.
-* Mengidentifikasi perusahaan, industri, dan negara dengan jumlah PHK tertinggi.
-* Menganalisis total PHK per tahun dan per bulan untuk melihat trend dari waktu ke waktu.
 * Membuat analisis *rolling total* untuk melihat akumulasi total PHK dari bulan ke bulan.
-* Meranking 5 perusahaan teratas dengan jumlah PHK terbanyak di setiap tahunnya.
+* Mengidentifikasi perusahaan, industri, negara, dan stage dengan jumlah PHK tertinggi.
+* Mengidentifikasi industri & stage yang banyak mengalami kegagalan total yang mem-PHK seluruh karyawannya. 
+
+---
+
+## Dashboard
+Dashboard ini juga bisa diakses di: [Tableau Public](https://www.kaggle.com/datasets/previnpillay/world-layoffs-2020-2023)
+<img src="visualization/World Layoffs Trend Dashboard.png" alt="World Layoffs Trend Dashboard" width="1000">
 
 ---
 
 ## Key Insights
-* **Trend PHK**: Trend PHK menunjukkan kenaikan signifikan, terutama pada periode awal pandemi dan mencapai puncaknya di tahun 2023.
-* **Industri Paling Terdampak**: Sektor industri **Consumer** dan **Retail** menunjukkan jumlah PHK tertinggi secara keseluruhan.
-* **Negara Paling Terdampak**: **United States** adalah negara dengan jumlah PHK tertinggi yang jauh melampaui negara lain.
-* **Perusahaan Terbesar**: Perusahaan seperti **Amazon**, **Google**, dan **Meta** termasuk dalam 5 perusahaan teratas yang melakukan PHK terbesar di beberapa tahun terakhir dalam rentang tahun data.
+* Dari grafik Layoffs Over Time ditemukan Tren PHK yang menunjukkan kenaikan signifikan pada Q4 tahun 2022 yang mengindikasikan fenomena pasar sebagai respos terhadap kondisi ekonomi makro.
+* Dari Map persebaran data PHK Global ditemukan bahwa tren PHK ini terjadi di banyak belahan dunia, dengan volume tertinggi terlihat di negara United States.
+* Dari rentang tahun 2020 hingga 2023, Amazon, Google, Meta, Microsoft, dan Salesforce merupakan 5 perusahaan teratas dengan total karyawan yang di-PHK terbanyak.
+* Industri Consumer dan Retail menjadi penyumbang volume PHK total tertinggi secara keseluruhan.
+* Perusahaan dengan stage Post-IPO memiliki frekuensi lebih banyak dibanding stage lain. Ini menunjukkan bahwa perusahaan dengan tahap Post IPO cenderung lebih sering melakukan PHK terhadap karyawannya.
+* Grafik Treemap menunjukkan bahwa sektor industri yang melakukan PHK terhadap seluruh karyawannya didominasi oleh perusahaan dengan tahap pendanaan awal (Seed hingga Series B), yang umumnya memiliki risiko kegagalan usaha lebih tinggi.
 
 ---
 
-## Kesimpulan
-Proyek ini berhasil melakukan **pembersihan data**  untuk analisis dan **exploratory data analysis** menggunakan SQL. Data yang sudah bersih memungkinkan kita untuk menarik kesimpulan yang akurat tentang trend PHK global dan mengidentifikasi sektor serta perusahaan yang paling terdampak.
+## Conclusion
+Proyek World Layoffs Analysis ini memberikan pemahaman menyeluruh tentang bagaimana tren PHK global berkembang dari tahun 2020 hingga 2023 di berbagai belahan dunia, sektor industri, dan tahap pendanaan perusahaan. Melalui proses ini, saya berhasil mempraktikkan keterampilan analisis data end-to-end menggunakan SQL dan Tableau.
 
-Proyek ini dapat dikembangkan lebih lanjut dengan menghubungkan hasil analisis ke *tools* visualisasi data seperti **Tableau** atau **Power BI** untuk menyajikan temuan secara lebih interaktif dan menarik.
+Dari sisi teknis, proyek ini memperkuat kemampuan saya dalam:
+* Advanced SQL Querying, termasuk data cleaning, aggregation, window functions, dan CTE (Common Table Expressions) untuk eksplorasi data mendalam.
+* Data Cleaning & Transformation, seperti penghapusan duplikat, penanganan nilai NULL, dan konversi tipe data untuk memastikan kualitas dataset.
+* Data Visualization dengan Tableau, dalam membangun dashboard yang menampilkan insight dari hasil analisis SQL.
+
+Dari sisi analitis, proyek ini mengajarkan saya pentingnya:
+* Memahami konteks bisnis di balik data, seperti keterkaitan antara tahap pendanaan dan risiko PHK.
+* Menerjemahkan analisis data menjadi insight yang bermakna.
+* Membuat visualisasi yang informatif dan dapat dipahami oleh audiens non-teknis.
