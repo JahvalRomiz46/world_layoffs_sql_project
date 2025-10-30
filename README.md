@@ -30,7 +30,7 @@ Proyek ini dibagi menjadi dua tahapan:
 * **Konversi Tipe Data**: Mengubah tipe data kolom `date` dari `TEXT` menjadi `DATE` untuk memudahkan analisis.
 * **Penghapusan Baris dan Kolom yang Tidak Relevan**: Menghapus baris yang memiliki nilai null di kedua kolom `total_laid_off` dan `percentage_laid_off` karena tidak memiliki informasi.
 
-### 2. Exploratory Data Analysis (EDA)
+### 2. Data Analysis
 * Membuat analisis *rolling total* untuk melihat akumulasi total PHK dari bulan ke bulan.
 * Mengidentifikasi perusahaan, industri, negara, dan stage dengan jumlah PHK tertinggi.
 * Mengidentifikasi industri & stage yang banyak mengalami kegagalan total yang mem-PHK seluruh karyawannya. 
