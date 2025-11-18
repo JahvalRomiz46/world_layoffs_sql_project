@@ -1,5 +1,4 @@
 # Analisis Data PHK Global (World Layoffs) 📉
-<br>
 
 ## Deskripsi Proyek
 Proyek ini merupakan proyek analisis data PHK Global dari dataset [World Layoffs](https://www.kaggle.com/datasets/previnpillay/world-layoffs-2020-2023) tahun 2020-2023. Tujuan utamanya adalah untuk membersihkan data, mengidentifikasi trend, dan menemukan insights penting terkait PHK yang terjadi di berbagai perusahaan, industri, dan negara di seluruh dunia. Seluruh proses, mulai dari pembersihan data hingga analisis, dilakukan menggunakan SQL, dan visualisasi menggunakan Tableau. 
