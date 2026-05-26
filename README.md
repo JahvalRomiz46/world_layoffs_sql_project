@@ -30,6 +30,17 @@ Project ini mensimulasikan peran Data Analyst di firma konsultasi SDM/Investasi.
 
 > 🔑 **Insight utama:** Terdapat dua pola PHK yang sangat berbeda. Big Tech seperti Amazon dan Google melakukan PHK parsial sebagai bentuk efisiensi dan tetap beroperasi. Sebaliknya, startup tahap awal di sektor Food dan Retail justru melakukan PHK 100% yang berarti penutupan bisnis secara total. Keduanya tidak bisa dianalisis dengan cara yang sama.
 
+## 📊 Rekomendasi untuk Stakeholders
+
+**Untuk Tim Talent Acquisition:**
+Gelombang PHK massal di Q1 2023 dari perusahaan seperti Amazon, Google, dan Meta menghasilkan talent pool berkualitas tinggi di pasar tenaga kerja. Ini adalah momen yang tepat untuk merekrut talenta senior teknologi dengan biaya yang lebih kompetitif sebelum kondisi pasar kembali pulih.
+
+**Untuk Investor (Venture Capital):**
+Data menunjukkan tingkat mortalitas (100% layoffs) tertinggi berada pada startup Seed hingga Series B di sektor Food Delivery dan Retail. Hindari investasi agresif pada segmen ini saat kondisi makroekonomi tidak stabil. Perusahaan Post-IPO yang melakukan PHK tetap menunjukkan stabilitas operasional dan lebih aman sebagai aset portofolio jangka menengah.
+
+**Untuk Job Seekers:**
+Hindari bergabung dengan startup Series A/B di sektor ritel saat ekonomi sedang tertekan. PHK di perusahaan korporasi besar cenderung bersifat parsial dan operasional tetap berjalan, sedangkan di startup tahap awal, PHK seringkali berarti penutupan bisnis secara total.
+
 ## 🛠️ Tech Stack & Metodologi
 
 | Tahap | Tools | Teknik yang Digunakan |
@@ -68,16 +79,6 @@ Analisis dilakukan dengan 5 pertanyaan utama menggunakan teknik SQL tingkat lanj
 
 Hasil analisis SQL divisualisasikan dalam sebuah dashboard interaktif di Tableau Public yang menampilkan tren PHK dari waktu ke waktu, perbandingan Top 5 industri, dan distribusi PHK berdasarkan tahap perusahaan.
 
-## 📊 Rekomendasi untuk Stakeholders
-
-**Untuk Tim Talent Acquisition:**
-Gelombang PHK massal di Q1 2023 dari perusahaan seperti Amazon, Google, dan Meta menghasilkan talent pool berkualitas tinggi di pasar tenaga kerja. Ini adalah momen yang tepat untuk merekrut talenta senior teknologi dengan biaya yang lebih kompetitif sebelum kondisi pasar kembali pulih.
-
-**Untuk Investor (Venture Capital):**
-Data menunjukkan tingkat mortalitas (100% layoffs) tertinggi berada pada startup Seed hingga Series B di sektor Food Delivery dan Retail. Hindari investasi agresif pada segmen ini saat kondisi makroekonomi tidak stabil. Perusahaan Post-IPO yang melakukan PHK tetap menunjukkan stabilitas operasional dan lebih aman sebagai aset portofolio jangka menengah.
-
-**Untuk Job Seekers:**
-Hindari bergabung dengan startup Series A/B di sektor ritel saat ekonomi sedang tertekan. PHK di perusahaan korporasi besar cenderung bersifat parsial dan operasional tetap berjalan, sedangkan di startup tahap awal, PHK seringkali berarti penutupan bisnis secara total.
 
 ## 📁 Struktur Repositori
 
